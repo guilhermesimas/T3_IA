@@ -1,0 +1,11 @@
+Um programa em java foi utilizado para pré processar os dados. Esse programa tem funções para calcular:
+
+- a frequencia de cada palavra em um set de arquivos
+- a quantidade de arquivos em que cada palavra aparece
+- o tf-idf de cada palavra
+
+Esse valores são sempre calculados separadamente para os arquivos positivos e os negativos. Após realizar os cálculos e analisar os resultados, concluímos que nesse caso o cálculo do tf-idf não seria muito eficiente, visto que as palavras que possuíam o tf-idf mais alto, apareciam em somente um arquivo.
+
+Esses dados foram utilizados então como entrada pelo programa em java para criar os arquivos: diff_narq(2) e diff_frequency(2) que representam a diferença entreos arquivos positivos e negativos do número de arquivos em que uma palavra aparece e da frequencia de cada palavra respectivamente.
+
+A partir desses arquivos para a parte 1 e 2, 100 palavras foram escohidas para serem utilizadas no bag-of-words.
