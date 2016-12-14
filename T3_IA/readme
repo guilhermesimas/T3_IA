@@ -10,4 +10,4 @@ Esses dados foram utilizados então como entrada pelo programa em java para cria
 
 A partir desses arquivos para a parte 1 e 2, 100 palavras foram escohidas para serem utilizadas no bag-of-words.
 
-Após escolher as palavras, todos os arquivos foram sem pontuação foram passados por __COMPLETE AQUI___ e cada ocorrência de uma palavra existente no bag of words se tornava um token. Os arquivos dos tokens eram passados novamente pelo java, que contava as instâncias, transformando em uma instância do Weka.
+Após escolher as palavras, todos os arquivos foram sem pontuação foram passados por um parser que removeu todas as palavras que n�o estavam na sele��o feita, e cada ocorrência de uma palavra existente no bag of words se tornava um token. Os arquivos dos tokens eram passados novamente pelo java, que contava as instâncias, transformando em uma instância do Weka.
